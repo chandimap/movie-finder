@@ -1,6 +1,6 @@
 header{
     min-height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/images/cinema4.jpg')center/cover fixed no-repeat;
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/movie-finder/images/cinema4.jpg')center/cover fixed no-repeat;
     position: relative;
     padding: 5rem 0;
   }

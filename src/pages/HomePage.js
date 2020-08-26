@@ -17,7 +17,7 @@ class HomePage extends Component {
           <h1 className="text-uppercase w-50 mx-auto">
           Welcome to Movie Search
           </h1>
-          <img src="../images/moviedb.png"  className="img_mdb" alt=""/>
+          <img src="/movie-finder/images/moviedb.png"  className="img_mdb" alt=""/>
         </div>
       </div>
     </div>

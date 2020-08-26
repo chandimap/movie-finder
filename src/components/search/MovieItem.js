@@ -6,7 +6,7 @@ const MovieItem = props => {
   return (
     <div className="col-8 mx-auto col-lg-3 text-center my-3">
       <div className="p-3 img-link-container">
-        <Link to={ '/movie/' + id }><img src={ (poster_path && ('https://image.tmdb.org/t/p/w500/' + poster_path) )||'../images/movie-default.jpg' } alt="" className="img-fluid img-link-img"/></Link>
+        <Link to={ '/movie/' + id }><img src={ (poster_path && ('https://image.tmdb.org/t/p/w500/' + poster_path) )||'/movie-finder/images/movie-default.jpg' } alt="" className="img-fluid img-link-img"/></Link>
       </div>
         <h5>{ title }</h5>
         <h5>{ release_date }</h5>

@@ -25,7 +25,7 @@ class ActorProfile extends Component {
             <div className="row mt-5">
               <div className="col-10 mx-auto col-md-4 text-center my-3">
                 <h1 className="text-center text-uppercase" >{ name  }</h1>
-                <img src={(profile_path && ('https://image.tmdb.org/t/p/w500'+ profile_path))||'../images/default.jpg'} alt="" className="img-fluid"/>
+                <img src={(profile_path && ('https://image.tmdb.org/t/p/w500'+ profile_path))||'/movie-finder/images/default.jpg'} alt="" className="img-fluid"/>
                 <h4 className="text-center mt-2">{place_of_birth}</h4>
               </div>
             </div>

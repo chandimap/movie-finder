@@ -8,7 +8,7 @@ class MovieProfile extends Component {
     this.props.LoadMovie(this.props.id);
   }
   render() {
-    let back_url = '../images/cinema.jpg'
+    let back_url = '/movie-finder/images/cinema.jpg'
     const { loading }  = this.props.movies;
     const { title, 
             poster_path, 

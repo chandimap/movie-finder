@@ -1,6 +1,6 @@
 .search-results{
     min-height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/cinema3.jpg')center/cover fixed no-repeat;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/movie-finder/images/cinema3.jpg')center/cover fixed no-repeat;
     position: relative;
     padding: 3rem 0;
   }
